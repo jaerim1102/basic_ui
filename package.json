@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "five-server"
+  },
+  "devDependencies": {
+    "five-server": "^0.3.3"
+  }
+}
