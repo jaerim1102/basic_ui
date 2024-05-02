@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* 헤더 */
+.header {
+  background-color: yellow;
+  width: 940px;
+}
+/* 비주얼 */
+.visual {
+  background-color: pink;
+  inline-size: 940px;
+}
+/* 메인 콘텐츠 */
+.main {
+  background-color: skyblue;
+}
+/* 슬로건 */
+.slogan {
+  background-color: lime;
+}
+/* 푸터 */
+.footer {
+  background-color: orange;
+}
