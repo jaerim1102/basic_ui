@@ -4,16 +4,6 @@
   --container-size: 940px;
 }
 
-/* 버튼 스타일 */
-button,
-a {
-  display: inline-block;
-  width: 100px;
-  padding: 20px;
-  border: 1px solid currentColor;
-  border-radius: 10px;
-}
-
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
@@ -44,12 +34,25 @@ body {
   height: 60vh;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: flex-start; /* 메인 축 */
+  justify-content: space-between; /* 메인 축 */
   align-items: stretch; /* 교차 축*/
+  padding: 28px 16px 36px;
 }
 
 .group {
   border: 1px solid red;
+}
+
+.group1 {
+  width: 250px;
+}
+
+.group2 {
+  width: 380px;
+}
+
+.group3 {
+  width: 190px;
 }
 
 /* 슬로건 */
