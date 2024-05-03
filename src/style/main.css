@@ -4,6 +4,16 @@
   --container-size: 940px;
 }
 
+/* 버튼 스타일 */
+button,
+a {
+  display: inline-block;
+  width: 100px;
+  padding: 20px;
+  border: 1px solid currentColor;
+  border-radius: 10px;
+}
+
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
