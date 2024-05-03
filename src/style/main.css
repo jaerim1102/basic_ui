@@ -86,4 +86,12 @@ body {
     flex-flow: row nowrap;
     justify-content: space-between;
   }
+
+  .group:nth-child(n + 2) {
+    margin-left: 0;
+  }
+
+  .group3 {
+    order: -1;
+  }
 }
