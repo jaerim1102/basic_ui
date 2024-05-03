@@ -21,6 +21,7 @@ body {
 .header {
   background-color: yellow;
   height: 10vh;
+  padding: 0 50px;
 }
 /* 비주얼 */
 .visual {
