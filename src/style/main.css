@@ -34,15 +34,9 @@ body {
   height: 60vh;
   display: flex;
   flex-flow: row nowrap;
-  /* justify-content: space-between;
+  justify-content: space-between;
   align-items: stretch;
-  padding: 28px 16px 36px; */
-}
-
-.group-wrapper {
-  display: flex;
-  flex-flow: row nowrap;
-  margin: 0 auto;
+  padding: 28px 16px 36px;
 }
 
 .group {
@@ -55,10 +49,12 @@ body {
 
 .group2 {
   width: 380px;
+  order: -1;
 }
 
 .group3 {
   width: 190px;
+  order: -1;
 }
 
 /* 슬로건 */
