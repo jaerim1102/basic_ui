@@ -38,10 +38,7 @@ body {
 
 .group {
   border: 1px solid red;
-}
-
-.main .group:nth-child(-n + 2) {
-  margin-right: 60px;
+  margin: 0 20px;
 }
 
 .group:nth-child(1) {
