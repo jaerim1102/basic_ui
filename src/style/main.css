@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
 
 :root{
@@ -6,6 +7,16 @@
 
 body {
    font-family: "SUIT Variable", sans-serif;
+=======
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap");
+
+:root {
+  --container-size: 940px;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+>>>>>>> 4a7d20023307d2c8f65fa6505d91fbdffbd7da63
 }
 
 .header,
