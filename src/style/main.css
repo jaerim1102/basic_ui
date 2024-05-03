@@ -37,24 +37,31 @@ body {
   padding: 0 15px;
 }
 
+.group-wrapper {
+  float: right;
+  border: 1px solid green;
+}
+
 .group {
   border: 1px solid red;
   margin: 0 15px;
 }
 
-.group:nth-child(1) {
+.group1 {
   width: 250px;
   float: left;
   background-color: orange;
 }
 
-.group:nth-child(2) {
+.group2 {
   width: 380px;
   float: left;
   background: silver;
+  margin-right: 0;
 }
 
-.group:nth-child(3) {
+.group3 {
+  background: hotpink;
   width: 190px;
   float: left;
 }
