@@ -4,5 +4,5 @@ module.exports = {
   open: ["index.html"],
   host: "localhost",
   browser: "chrome",
-  https: false,
+  https: true,
 };
