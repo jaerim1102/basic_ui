@@ -20,9 +20,20 @@ body {
 /* 헤더 */
 .header {
   background-color: darkblue;
-  height: 10vh;
+  height: 120px;
   padding: 0 50px;
+  border-radius: 0 0 15px 15px;
+  position: relative;
 }
+
+/* 로고 */
+.logo {
+  background-color: orange;
+  position: absolute;
+  top: 45px;
+  left: 60px;
+}
+
 /* 비주얼 */
 .visual {
   background-color: pink;
