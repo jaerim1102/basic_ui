@@ -34,11 +34,12 @@ body {
   /* height: 60vh; */
   display: flow-root;
   min-height: 450px;
+  padding: 0 15px;
 }
 
 .group {
   border: 1px solid red;
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 .group:nth-child(1) {
