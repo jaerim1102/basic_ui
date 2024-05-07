@@ -1,0 +1,24 @@
+body {
+  color: #f00;
+  font-size: 30px;
+}
+
+div {
+  border: 1px solid blue;
+}
+
+.heading {
+  color: purple !important;
+}
+
+h1.heading {
+  color: green;
+}
+
+.techit {
+  color: grey !important;
+}
+
+.container {
+  color: hotpink;
+}
