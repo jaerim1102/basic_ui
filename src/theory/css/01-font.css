@@ -1,0 +1,27 @@
+/* 단위 */
+/* 절대단위 - px */
+/* 상대단위 - em., rem, %, vw, cqw .... */
+
+html {
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+div {
+  font-size: 1.5em;
+}
+
+/* 1.5em - 상속된 글자 크기의 비계 */
+p {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+@media (max-width: 767px) {
+  p {
+    font-size: 0.85rem;
+  }
+}
