@@ -47,11 +47,12 @@ body {
 @keyframes moveEffect{
   0%{
     font-size: 12px;
-    margin: 0;
+    transform: translate(0,0);
+
   }
   100%{
     font-size: 24px;
-    margin: 75px 0 0 400px;
+    transform: translate(400px,75px);
   }
 }
 
@@ -63,9 +64,7 @@ body {
   background: lime;
 }
 
-
 .visual {
-  border: 1px solid transparent;
   height: 120px;
   block-size: 120px;
   position: relative;
